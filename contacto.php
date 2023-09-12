@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es" class="h-100" data-bs-theme="auto">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">    
+    <title>Contacto</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <meta name="theme-color" content="#712cf9">
+
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+
+    <style>
+      i{
+        font-size: 30px;
+        color: black;
+      }
+    </style>
+  </head>
+  <body class="d-flex h-100 text-center text-bg-dark">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="bi bi-person-square" id="logo"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/proyectos/Proyecto_1/index.php">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/proyectos/Proyecto_1/contacto.php">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <main class="px-3">
+    <form action="" method="POST">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4 mt-6  rounded">
+            <h1 class="text-center font-weight-bold">Contacto</h1>
+            <br><br>
+            <h5 class="text-center text-success"></h5>
+            <form action="" method="post" id="form-box" class="p-2">
+              <div class="form-group input-group">
+                <input type="text" name="name" class="form-control" placeholder="Ingresa tu nombre" required>
+              </div>
+              <br>
+              <div class="form-group input-group">
+                <input type="email" name="correo" class="form-control" placeholder="Ingresa tu correo" required>
+              </div>
+              <br>
+              <div class="form-group input-group">
+                <textarea name="comentario" id="msg" class="form-control" placeholder="Comentario" cols="30" rows="4" required></textarea>
+              </div>
+              <br>
+              <div class="form-group">
+                <input type="submit" name="submit" id="submit" class="btn btn-primary btn-block" value="Send">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </form>
+  </main>
+
+  <footer class="mt-auto text-white-50">
+
+  </footer>
+</div>
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    </body>
+</html>
